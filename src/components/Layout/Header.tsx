@@ -11,7 +11,7 @@ const Header = () => {
     <header className='flex justify-between items-center bg-inherit py-6 sticky top-0' >
         {/* logo */}
         <div>
-        <h2 className='text-teal-400 text-2xl font-bold font-serif'>PhysicalTherapy Center</h2>
+        <h2 className='text-teal-400 text-xl font-bold font-serif'>Physical Therapy Center</h2>
         </div>
         {/* navigation bar */}
       

@@ -61,7 +61,7 @@ const Services = () => {
         <h2 className='font-bold text-3xl text-teal-800 mt-16'>Let’s Get Started!</h2>
 <p className="mt-2 text-m text-slate-900 py-1">Are you ready to take control of your health and well-being? Reach out to us today to schedule your first consultation. Our friendly team is eager to assist you and answer any questions.</p>
 
-<p className='mt-6 font-bold text-3xl text-teal-800'>"Start Your Journey"</p>
+<p className='mt-6 font-bold text-3xl text-teal-800'>Start Your Journey</p>
 
 <p className="mt-2 text-m text-slate-900 py-1">
     —where your path to recovery is met with care, compassion, and commitment!</p>

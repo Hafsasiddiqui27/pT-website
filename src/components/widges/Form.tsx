@@ -15,7 +15,7 @@ export default function ContactForm() {
   const [status, setStatus] = useState("");
 
   // Handle input changes
-  const handleChange = (e:any) => {
+  const handleChange = (e: { target: { name: any; value: any; }; }) => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
@@ -24,7 +24,7 @@ export default function ContactForm() {
   };
 
   // Handle form submission
-  const handleSubmit = async (e:any) => {
+  const handleSubmit = async (e: { preventDefault: () => void; }) => {
     e.preventDefault();
 
     setStatus("Submitting...");

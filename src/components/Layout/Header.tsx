@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import React from 'react'
 import Wrapper from '@/components/shared/Wrapper'
-import {Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger,} from "@/components/ui/sheet"
+import {Sheet, SheetContent, SheetTrigger,} from "@/components/ui/sheet"
 import { Menu } from 'lucide-react';
 
 const Header = () => {
@@ -22,21 +22,23 @@ const Header = () => {
             <Link className='hover:font-semibold' href='/contact'>Contact Us</Link>
             </li>
         </ul>
-<div  className='block md:hidden bg-white'>
+ 
     <Sheet>
-  <SheetTrigger><Menu /></SheetTrigger>
-  <SheetContent>
-  <ul>
-            <li className='flex-col'>
-            <Link className='hover:font-semibold' href='/'>Home</Link>
-            <Link className='hover:font-semibold' href='/about'>About</Link>
-            <Link className='hover:font-semibold' href='/contact'>Contact Us</Link>
+  <SheetTrigger><Menu className='block md:hidden bg-white'/></SheetTrigger>
+  <SheetContent className='bg-slate-200 w-fit'>
+  <div>
+        <h2 className='text-teal-400 text-2xl font-bold font-serif'>PhysicalTherapy Center</h2>
+        </div>
+  <ul className='flex-col'>
+             
+            <li> <Link className='hover:font-semibold m-2' href='/'>Home</Link></li>
+            <li><Link className='hover:font-semibold  m-2' href='/about'>About</Link></li> 
+            <li> <Link className='hover:font-semibold m-2' href='/contact'>Contact Us</Link>
             </li>
         </ul>
     
   </SheetContent>
 </Sheet>
-</div>
 
     
        
